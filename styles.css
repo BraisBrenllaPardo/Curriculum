@@ -1,11 +1,11 @@
 body {
     background-color: white;
-    color: red;
+    color: black;
     padding: 2% 10%;
 
 }
 .wrapper {
-    background-color: black;
+    background-color: blue;
     padding: 20px;
     margin: 20px;
     border-style: double;
@@ -26,5 +26,10 @@ li {
     float: right;
 }
 .dates {
-    color: white;
+    color: red;
+}
+.title {
+    margin-bottom: 20px;
+    border-style: dashed;
+    text-align: center;
 }
