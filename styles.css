@@ -14,10 +14,11 @@ body {
 }
 
 h1 { 
-    color: white;
+    color: white ;
     font-size: 4em ;
     text-align: center;
 }
+
 li {
     font-style: italic;
     text-align: left;
