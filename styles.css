@@ -5,12 +5,19 @@ body {
 
 }
 .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+
+}
+
+.boxes {
     background-color: blue;
     padding: 20px;
     margin: 20px;
     border-style: double;
     border-color: red;
-    border
 }
 
 h1 { 
@@ -25,6 +32,7 @@ li {
 }
 .foto {
     float: right;
+    
 }
 .dates {
     color: red;
@@ -33,4 +41,14 @@ li {
     margin-bottom: 20px;
     border-style: dashed;
     text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="foto"] {
+      height: 100px;
+      width: 100px;
+    }
+    h1 {
+        color:green;
+    }
 }
